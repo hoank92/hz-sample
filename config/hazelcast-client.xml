@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast-client xmlns="http://www.hazelcast.com/schema/client-config"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.hazelcast.com/schema/client-config
+                  http://www.hazelcast.com/schema/client-config/hazelcast-client-config-3.12.xsd">
+	
+	<group>
+		<name>atomik-test</name>
+		<password>123@123a</password>
+	</group>
+	
+    <properties>
+        <property name="hazelcast.logging.type">slf4j</property>
+    </properties>
+
+	<network>
+		<outbound-ports>
+			<ports>0</ports>
+		</outbound-ports>
+		<ssl enabled="false" />
+		<socket-interceptor enabled="false" />
+	</network>
+</hazelcast-client>

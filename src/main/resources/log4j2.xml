@@ -29,7 +29,7 @@
 			<AppenderRef ref="console" />
 		</Root>
 		<Logger name="org.reflections" level="off" />
-		<Logger name="org.hoank" level="debug" />
+		<Logger name="org.hz" level="debug" />
 		<!-- <Logger name="com.hazelcast" level="warn" /> -->
 	</Loggers>
 </Configuration>

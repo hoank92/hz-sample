@@ -1,4 +1,4 @@
-package org.hoank.demo;
+package org.hz.demo;
 
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
