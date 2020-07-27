@@ -14,7 +14,7 @@
         <hikaricp.version>3.3.1</hikaricp.version>
         <h2.version>1.4.200</h2.version>
         <jdbi.version>3.14.1</jdbi.version>
-        <log4j2.version>2.11.1</log4j2.version>
+        <log4j2.version>2.13.3</log4j2.version>
     </properties>
 
 
